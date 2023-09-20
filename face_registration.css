@@ -1,0 +1,117 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWTlgJxFCJgH6gZgmIbHao3WuI_2q37A2bJw&usqp=CAU");
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+.regstration-sheet {
+    border: 1px solid red;
+    border-radius: 10px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf_i8Aq78K-CEuj3lVyhBNQyVsWlaIwPgp3Q&usqp=CAU");
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15%;
+    width: 30%;
+}
+
+.name-and-logo {
+    display: flex;
+    color: chocolate;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+}
+
+.part-of-owner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.log-label {
+    margin-right: 23px;
+    color: rgb(238, 241, 12);
+}
+
+.pass-label {
+    color: rgb(210, 246, 10);
+}
+
+.log-input, .pass-input {
+    background: none;
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(63, 42, 165);
+    border-bottom-width: 2px;
+    border-radius: 20px;
+    color: rgb(227, 0, 247);
+    margin-top: 20px;
+    padding: 5px;
+    width: 200px;
+}
+
+.log-input:hover, .pass-input:hover {
+    background: rgb(18, 210, 85);
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(63, 42, 165);
+    border-bottom-width: 2px;
+    border-radius: 20px;
+    color: rgb(227, 0, 247);
+    margin-top: 20px;
+    padding: 5px;
+    width: 200px;
+}
+
+.part-of-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part-of-button button {
+    margin: 10px;
+    width: 125px;
+    height: 25px;
+    border-radius: 20px;
+    color: brown;
+    background-color: chartreuse;
+}
+
+.part-of-button button:hover {
+    margin: 10px;
+    width: 150px;
+    height: 25px;
+    border-radius: 20px;
+    color: rgb(229, 249, 6);
+    background-color: rgb(5, 182, 246);
+    cursor: pointer;
+}
+
+.part-of-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+a {
+    margin-left: 15px;
+}
+
+.links {
+    display: flex;
+    justify-content: left;
+    color: rgb(215, 246, 10); 
+}
